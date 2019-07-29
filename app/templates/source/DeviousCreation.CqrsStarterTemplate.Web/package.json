@@ -1,0 +1,49 @@
+{
+  "name": "cqrs-starter-template",
+  "version": "1.0.0",
+  "description": "A starter template for .net core using CQRS, Mediatr, Entity Framework and Dapper",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "release:watch": "webpack --config webpack.prod.js --watch",
+    "release:build": "webpack --config webpack.prod.js",
+    "dev:watch": "webpack --config webpack.dev.js --watch",
+    "dev:build": "webpack --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devious-creation/cqrs-starter-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devious-creation/cqrs-starter-template/issues"
+  },
+  "homepage": "https://github.com/devious-creation/cqrs-starter-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "imports-loader": "^0.8.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^7.1.0",
+    "sass-resources-loader": "^2.0.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-merge": "^4.2.1"
+  }
+}

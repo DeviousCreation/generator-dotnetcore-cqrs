@@ -1,0 +1,44 @@
+{
+  "name": "generator-dotnetcore-cqrs",
+  "version": "0.0.0-development",
+  "description": "CQRS Starter Template for asp.net core ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devious-creation/generator-dotnetcore-cqrs.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "dotnet-core",
+    "aspnet-core",
+    "template",
+    "scaffold",
+    "generator",
+    "cqrs"
+  ],
+  "author": "Andrew Davis <andrew.davis@deviouscreation.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devious-creation/generator-dotnetcore-cqrs/issues"
+  },
+  "homepage": "https://github.com/devious-creation/generator-dotnetcore-cqrs#readme",
+  "dependencies": {
+    "gulp-rename": "1.2.2",
+    "gulp-string-replace": "^1.1.2",
+    "replace-in-file": "^4.1.1",
+    "yeoman-generator": "^4.0.1"
+  },
+  "files": [
+    "app"
+  ],
+  "devDependencies": {
+    "semantic-release": "^15.13.18"
+  }
+}
