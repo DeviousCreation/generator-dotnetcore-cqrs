@@ -1,4 +1,4 @@
-# cqrs-starter-template
+# Name
 > This uses the yeoman template 'cqrs-starter-template' found here [https://github.com/devious-creation/cqrs-starter-template](https://github.com/devious-creation/cqrs-starter-template)
 
 ## Intro
